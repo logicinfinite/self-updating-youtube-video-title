@@ -5,13 +5,13 @@ const {google} = require('googleapis');
   async function main()
   {
   const authClient = new google.auth.OAuth2({
-    clientId: '643605803660-99dag1iji2gkdo4ibpu3qlpjrqupp1bv.apps.googleusercontent.com',
-    clientSecret: 'BmphWA6Pd9_WZE0ABso9GN4J',
+    clientId: 'Enter your own client id here',
+    clientSecret: 'Enter your own client secret key here',
   });
 
   authClient.setCredentials({
     // in the video I used a sample (expired) token that will not work anymore
-    refresh_token: '1//04-bfUhRrSaYnCgYIARAAGAQSNwF-L9IrwmctqARuBwZ1VoyUPMHvh1Rzknp9uU9IF9SqsH6jpH4xibF_EAL4qicW9eJ_pcr5bQQ',
+    refresh_token: 'enter  refresh token',
   });
 
   const youtube = google.youtube({
