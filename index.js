@@ -1,7 +1,7 @@
-//const functions = require('firebase-functions');
+
 const {google} = require('googleapis');
 
-//exports.updateVideo = functions.pubsub.schedule('every 10 minutes').onRun(async () => {
+
   async function main()
   {
   const authClient = new google.auth.OAuth2({
@@ -10,7 +10,7 @@ const {google} = require('googleapis');
   });
 
   authClient.setCredentials({
-    // in the video I used a sample (expired) token that will not work anymore
+    //  I used a sample (expired) token that will not work anymore
     refresh_token: 'enter  refresh token',
   });
 
@@ -35,7 +35,7 @@ snippet.title=newTitle;
   console.log(newTitle);
 
 
-  // this if statement helps to save on quota if the title has not changed
+
 
 
     await youtube.videos.update({
