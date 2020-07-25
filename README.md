@@ -1,6 +1,5 @@
-:wave:
-
-#  :octocat: Self-Updating-Youtube-Video-Title
+:octocat: 
+#   Self-Updating-Youtube-Video-Title
 <br><br>
 
 # Description:
@@ -8,10 +7,11 @@
 This youtube video will update its title to show the current analytics of a video- views,likes,dislikes and other stuff.
 <br><br>
 
-#  :dart: Requirements:
-  -FireBase Account
-  -Knowledge of JavaScript
-  -Google Api 
+#  :dart:
+ # Requirements:
+                -FireBase Account
+                -Knowledge of JavaScript
+                -Google Api 
  
 :dart:
 [Link to the video](https://www.youtube.com/watch?v=_sNLV-oLm3k&feature=youtu.be)
